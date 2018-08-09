@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src = "JSONHandler.js">
 
+
+
+
+
+    </script>
 </head>
-<body>
+<body onload="parseJSON()">
 <h1>Parsing JSON from a HTTP Response</h1>
 <a href="project-list.html">Project List</a>
-<script src = "JSONHandler.js">
 
 
 
-
-
-</script>
-
-
-<table style="width:100%">
-    <tr>
+<table id="squadInfo" style="width:800px">
+    <tr style="align-content: left">
         <th>Squad Name</th>
         <th>Home Town</th>
         <th>Formed</th>
         <th> Secret Base</th>
+        <th>Active</th>
     </tr>
 
+</table>
+
+<table id="members">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Secret Identity</th>
+        <th>Powers</th>
+    </tr>
 </table>
 
 
