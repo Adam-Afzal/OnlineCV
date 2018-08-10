@@ -1,0 +1,56 @@
+html {
+
+    background-image: url("h5.jpg");
+
+}
+
+
+
+
+
+
+.title{
+
+    color: white;
+}
+
+
+
+
+
+.playerInfo{
+
+
+    color: white;
+.border: 0;
+
+    padding: 7px 15px;
+
+    border: 1px solid #ccc;
+
+    position: relative;
+
+    background: transparent;
+
+
+
+}
+
+
+
+.playerCompanyInfo{
+
+    color: white;
+
+.border: 0;
+
+    padding: 7px 15px;
+
+    border: 1px solid #ccc;
+
+    position: relative;
+
+    background: transparent;
+
+
+}

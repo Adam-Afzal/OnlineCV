@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <script src="Halo5.js"></script>
+    <link href="Halo5.css" rel="stylesheet" type="text/css"/>
 
     <meta charset="UTF-8">
     <title>Halo 5 Player Stats</title>
 </head>
 <body>
 
-<div>
+<div class="title">
 <h1> Halo 5 Player Stats Finder</h1>
 </div>
 
-<div>
+<div class="playerInfo">
 
     Gamertag:<input type="text" id="gamertag">
     <button id="search" onclick="find()" style="width: 55px;height: 20px">Search</button><br>
@@ -23,6 +24,21 @@
 
 
 </div>
+
+<div class = "playerCompanyInfo">
+
+    <h2> Spartan Company Details</h2>
+
+    Spartan Company Name:<input type="text" id="companyName">
+    Creator Gamertag:<input type="text" id="creatorTag">
+    <select id="players">
+
+    </select>
+
+
+</div>
+
+
 
 </body>
 </html>
